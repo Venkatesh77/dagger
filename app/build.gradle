@@ -38,7 +38,7 @@ android {
     }
 }
 ext {
-    dagger = '2.21'
+    dagger = '2.41'
 }
 
 dependencies {
