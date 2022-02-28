@@ -64,13 +64,13 @@ dependencies {
 //    kapt "com.google.dagger:dagger-android-processor:$dagger"
 
     // Koin
-    def koin_version = "2.2.3"
-    implementation "io.insert-koin:koin-android:$koin_version"
-// use org.koin:koin-android-viewmodel instead for non-androidx projects!
-    implementation "io.insert-koin:koin-androidx-viewmodel:$koin_version"
-    implementation "io.insert-koin:koin-core:$koin_version"
+//    def koin_version = "2.2.3"
+//    implementation "io.insert-koin:koin-android:$koin_version"
+//// use org.koin:koin-android-viewmodel instead for non-androidx projects!
+//    implementation "io.insert-koin:koin-androidx-viewmodel:$koin_version"
+//    implementation "io.insert-koin:koin-core:$koin_version"
 
-    //Hilt
-//    implementation "com.google.dagger:hilt-android:$dagger"
-//    kapt "com.google.dagger:hilt-android-compiler:$dagger"
+//    Hilt
+    implementation "com.google.dagger:hilt-android:$dagger"
+    kapt "com.google.dagger:hilt-android-compiler:$dagger"
 }
