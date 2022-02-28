@@ -71,6 +71,6 @@ dependencies {
     implementation "io.insert-koin:koin-core:$koin_version"
 
     //Hilt
-    implementation "com.google.dagger:hilt-android:$dagger"
-    kapt "com.google.dagger:hilt-android-compiler:$dagger"
+//    implementation "com.google.dagger:hilt-android:$dagger"
+//    kapt "com.google.dagger:hilt-android-compiler:$dagger"
 }
